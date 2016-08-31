@@ -1,0 +1,31 @@
+{
+    "name": "visionappscz/cz-ic-validator-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony IC validator Bundle",
+    "keywords": [],
+    "homepage": "https://symfony.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "VisionApps s.r.o.",
+            "homepage": "https://www.visionapps.cz"
+        }
+    ],
+    "repositories": [
+        {
+            "type":"git",
+            "url":"https://github.com/visionappscz/cz-ic-validator.git"
+        }
+    ],
+    "require": {
+        "symfony/validator": "~3.1",
+        "visionappscz/cz-ic-validator": "dev-master"
+    },
+    "autoload": {
+        "psr-4": { "VisionApps\\CZICValidatorBundle\\": "" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "minimum-stability": "dev"
+}
