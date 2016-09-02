@@ -11,15 +11,9 @@
             "homepage": "https://www.visionapps.cz"
         }
     ],
-    "repositories": [
-        {
-            "type":"git",
-            "url":"https://github.com/visionappscz/cz-ic-validator.git"
-        }
-    ],
     "require": {
         "symfony/validator": "~3.1",
-        "visionappscz/cz-ic-validator": "dev-master"
+        "visionappscz/cz-ic-validator": "~1.0.0"
     },
     "autoload": {
         "psr-4": { "VisionApps\\CZICValidatorBundle\\": "" },
