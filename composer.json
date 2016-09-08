@@ -16,7 +16,7 @@
         "visionappscz/cz-ic-validator": "~1.0.0"
     },
     "autoload": {
-        "psr-4": { "VisionApps\\CZICValidatorBundle\\": "" },
+        "psr-4": { "CZICValidatorBundle\\": "" },
         "exclude-from-classmap": [
             "/Tests/"
         ]

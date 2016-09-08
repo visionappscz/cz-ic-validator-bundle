@@ -1,10 +1,10 @@
 <?php
 
-namespace VisionApps\CZICValidatorBundle\Validator;
+namespace CZICValidatorBundle\Validator;
 
 use Symfony\Component\Validator\Constraint;
 use Symfony\Component\Validator\ConstraintValidator;
-use VisionApps\CZICValidator\Validator\CZICValidator;
+use CZICValidator\Validator\CZICValidator;
 
 class CompanyIdValidator extends ConstraintValidator
 {

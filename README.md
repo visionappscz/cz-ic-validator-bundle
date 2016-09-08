@@ -17,7 +17,7 @@ require visionappscz/cz-ic-validator-bundle
 AppBundle\Entity\Company:
     properties:
         companyId:
-            - VisionApps\CZICValidator\Validator\CompanyId: ~
+            - CZICValidator\Validator\CompanyId: ~
 ```
 
 [See the documentation](http://symfony.com/doc/current/reference/constraints/NotNull.html#basic-usage) for more information about the syntax of definitions of validation rules.

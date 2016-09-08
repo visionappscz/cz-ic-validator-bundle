@@ -1,6 +1,6 @@
 <?php
 
-namespace VisionApps\CZICValidatorBundle\Validator;
+namespace CZICValidatorBundle\Validator;
 
 use Symfony\Component\Validator\Constraint;
 
